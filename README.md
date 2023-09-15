@@ -122,10 +122,11 @@ Esse teste envia uma solicitação POST para um endpoint (URL) especificado. A s
 
 O teste está simulando uma interação com um serviço da web que  realiza uma previsão ou análise com base nos dados da pessoa fornecidos no corpo da solicitação. Após o envio da solicitação, o teste imprime o código de status da resposta e o texto da resposta, conforme exemplo abaixo:
 
+![Captura de tela de 2023-09-13 21-25-20](https://github.com/insper-classroom/23-2-mlops-aps03-Lihsayuri/assets/62647438/bf1cfd01-0939-435e-bf78-b81153b55773)
+
 
 
 ### Deletar recursos
-```
 
 Para deletar tudo o que foi feito, basta entrar na pasta `delete_everything`e rodar os seguintes comandos:
 
@@ -133,6 +134,4 @@ Para deletar tudo o que foi feito, basta entrar na pasta `delete_everything`e ro
 python3 delete_api.py
 python3 delete_function.py
 python3 delete_repository.py
-
-
 ```
